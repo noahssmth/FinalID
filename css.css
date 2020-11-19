@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.menu{
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	color: white;
+	position: fixed;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 1980px;
+	background: #682B2C;
+}
+.background img{
+	width: 100%;
+}
+.menu ol{
+	list-style: none;
+	position: absolute;
+	top: 40px;
+	left: 770px;
+}
+.menu ol li { 
+	display: inline-block;
+	width: 120px; 
+	height: 40px; 
+	transition: 0.5s;
+	box-sizing:border-box;
+}
+
+.menu ol li:hover{
+	transform:scale(1.1,1.1);
+}
+.menu ol i:hover{
+	transform:scale(1.1,1.1);
+}
+.logo{
+	position: absolute;
+	left: 60px;
+	top: 25px;
+	transition: 0.5s;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 30px;
+}
+.logo:hover {
+	transform:scale(1.1,1.1);
+	color: black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.menu ol {
+	padding-left: 50px;
+}
+.menu a {
+  float: left;
+  display: block;
+/*  color: #f2f2f2;*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+	color: white;
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+	position: absolute;
+	top: 350px;
+	left: 580px;
+}
+
+.button1 {
+  background-color: transparent; 
+  color: white; 
+  border: 2px solid;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+	border: 2px solid white;
+	 transform: scale(1.2,1.2);
+}
+.text{
+	color: white;
+	font-size: 70px;
+	position: absolute;
+	top: 1600px;
+	left: 250px;
+	transition: 0.5s;
+}
+.textall:hover .text{
+	color: white;
+	position: absolute;
+	top: 1600px;
+	left: 680px;
+	font-size: 65px;
+}
+.introduced{
+	width: 100%;
+	height: 300px;
+	background: white;
+	position: relative;
+}
+.introduced h1 {
+	text-align: center;
+	font-size: 100px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding: 60px 50% 0 50%;
+	font-style: italic;
+	transition: 0.5s;
+}
+.introduced .subh1 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: black;
+	animation-name: xoay;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes xoay{
+  0%   {background-color: black; left:712px; top:135px;}
+  25%  {background-color: red; left:900px; top:135px;}
+  50%  {background-color: black; left:712px; top:135px;}
+  100% {background-color: red; left:900px; top:135px;}
+}
+.introduced h1:hover{
+	transform: scale(1.2,1.2);
+	color: #8B8B8B;
+}
+.introduced h3 {
+	text-align: center;
+	position: absolute;
+	top: 160px;
+	left: 50%;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.background2 img {
+	width: 100%;
+}
+.imgtext img {
+	width: 35%;
+	visibility: hidden;
+}
+.textall:hover .imgtext img {
+	position: absolute;
+	right: 700px;
+	top: 1430px;
+	left: 170px;
+	visibility: visible;
+	transform: rotate(360deg);
+	transition: width 2s, height 2s, transform 2s;
+}
+.introduced2{
+	width: 100%;
+	height: 300px;
+	background: white;
+	position: relative;
+}
+.introduced2 h1 {
+	text-align: center;
+	font-size: 100px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding: 60px 50% 0 50%;
+	font-style: italic;
+	transition: 0.5s;
+}
+.introduced2 .sub2h1 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: black;
+	animation-name: xoay;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes xoay{
+  0%   {background-color: black; left:712px; top:135px;}
+  25%  {background-color: red; left:900px; top:135px;}
+  50%  {background-color: black; left:712px; top:135px;}
+  100% {background-color: red; left:900px; top:135px;}
+}
+.introduced2 h1:hover{
+	transform: scale(1.2,1.2);
+	color: #8B8B8B;
+}
+.introduced2 h3 {
+	text-align: center;
+	position: absolute;
+	top: 160px;
+	left: 50%;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.background3{
+	position: relative;
+}
+.background3 img{
+	width: 100%;
+}
+.text2{
+	color: white;
+	font-size: 70px;
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	transition: 0.5s;
+}
+.textall2:hover .text2{
+	color: white;
+	position: absolute;
+	top: 300px;
+	right: 680px;
+	font-size: 65px;
+}
+.imgtext2 img {
+	width: 30%;
+	visibility: hidden;
+	transition-property: width, height;
+  	transition-duration: 2s;
+}
+.textall2:hover .imgtext2 img {
+	position: absolute;
+	right: 0px;
+	top: 100px;
+	visibility: visible;
+	width: 500px;
+  	height: 500px;
+}
+.footer{
+	width: 100%;
+	height: 200px;
+	background: white;
+	text-align: center;
+	position: relative;
+}
+.footer1 {
+	padding: 50px 0 0 0;
+	font-style:italic;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: #ADADAD;
+}
+.footer1 i {
+	font-size: 30px;
+	padding: 0 0 10px 0;
+	transition: 0.5s;
+	
+}
+ .footer1 a:link {
+	text-decoration: none;
+	 color: #ADADAD;
+}
+.footer1 a i:hover {
+	transform: scale(1.1,1.1);
+	color: #000000;
+}
